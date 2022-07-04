@@ -1,0 +1,1 @@
+{"name":"Local: mintymitem","url":"c:\\programming\\c++\\1.c\\mintymitem.cpp","tests":[{"id":1633327847175,"input":"1\n2\n53 28\n10 47","output":"10 28\n28"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\programming\\c++\\1.c\\mintymitem.cpp","group":"local","local":true}

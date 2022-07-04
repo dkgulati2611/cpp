@@ -1,0 +1,3 @@
+
+
+{"name":"Local: spiralordermatrix","url":"c:\\programming\\c++\\spiralordermatrix.cpp","tests":[{"id":1618389429279,"input":"5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\programming\\c++\\spiralordermatrix.cpp","group":"local","local":true}

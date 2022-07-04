@@ -1,0 +1,1 @@
+{"name":"Local: longestsubarraybitand","url":"c:\\programming\\c++\\1.c\\longestsubarraybitand.cpp","tests":[{"id":1633115942592,"input":"5\n1\n2\n3\n4\n7","output":"1\n1\n2\n2\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\programming\\c++\\1.c\\longestsubarraybitand.cpp","group":"local","local":true}

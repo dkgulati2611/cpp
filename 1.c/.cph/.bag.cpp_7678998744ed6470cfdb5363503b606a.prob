@@ -1,0 +1,1 @@
+{"name":"Local: bag","url":"c:\\programming\\c++\\1.c\\bag.cpp","tests":[{"id":1633111083067,"input":"3\n2 3 5 10\n1 2 3 5\n3 3 4 4","output":"1 \n2\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\programming\\c++\\1.c\\bag.cpp","group":"local","local":true}
