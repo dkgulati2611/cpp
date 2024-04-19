@@ -1,109 +1,27 @@
-
+//Silent26Knight aka DKG
 #include <bits/stdc++.h>
-#define pb(x) push_back(x)
-#define all(x) x.begin(), x.end()
-#define debug(x) cout << '>' << #x << ':' << x << endl; 
-#define ld long double
-#define endl "\n";
-
-const int mod = 1000000007;
 using namespace std;
-
-bool notprime(string str)
+#define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define en '\n' 
+#define ll long long 
+#define pi (3.141592653589)
+#define mod 1e9+7
+#define all(c) c.begin(), c.end()
+#define rrep(i, n) for(int i=n-1;i>=0;i--)
+#define rep(j,i,n) for(int j = i;j<n;j++)
+int main()
 {
-    int x=0;
-    stringstream geek(str);
-    geek>>x;
-    if(x==1)
-    {
-        return true;
-    }
-    if(x==2 or x==3 or x==5)
-    {
-        return false;
-    } 
-    for(int i=2;i<=sqrt(x);i++)
-    {
-        if(x%i==0)
-        {
-            return true;
+    int n;cin>>n;
+    for(int i = 1;i<=n;i++){
+        int j = i;
+        // int temp = i;
+        // int val = i;
+        while(i--){
+            cout<<j<<" ";
+            j++;
+            // val++;
         }
-    }
-    return false;
-}
-int32_t main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-
-    int test;
-    cin >> test;
-
-    while (test--) {
-        int k;
-        cin>>k;
-        
-        string str;
-        cin>>str;
-        int n = str.length();
-        bool found = false;
-        for(int i=0;i<n;i++)
-        {    string x = "";
-             x+=str[i];
-             if(notprime(x))
-             {
-                 cout<<1<<endl;
-                 cout<<str[i]<<endl;
-                 found = true;
-                 break;
-             }
-        }
-        
-        
-        if(found == false)
-        {
-            for(int i=0;i<n;i++)
-            {  if(found==false){
-                for(int j=i+1;j<n;j++)
-                {
-                    string temp="";
-                    temp += str[i];
-                    temp +=str[j];
-                    if(notprime(temp))
-                    {
-                        cout<<2<<endl;
-                        cout<<temp<<endl;
-                        found = true;
-                        break;
-                    }
-                }
-            }}
-        }
-        
-        if(found == false)
-        {
-            for(int i=0;i<n;i++)
-            {   if(found==false){
-                for(int j=i+1;j<n;j++)
-                {   if(found==false){
-                    for(int k=0;k<n;k++)
-                   {if(k!=i and k!=j)
-                   {
-                    string temp = "";
-                    temp += str[i];
-                    temp +=str[j];
-                    temp += str[k];
-                    if(notprime(temp))
-                    {
-                        cout<<3<<endl;
-                        cout<<temp<<endl;
-                        found = true;
-                        break;
-                    }
-                   }}
-                }}
-            }}
-        }  
+        cout<<en;
     }
     return 0;
 }

@@ -17,10 +17,9 @@ class minheap{
         {
             if (arr[i] == val)
             {
-                cout<<"value forund!"<<endl;
+                cout<<"value found!"<<endl;
                 return;
             }
-            
         }
         cout<<"value not found!"<<endl;
     }
